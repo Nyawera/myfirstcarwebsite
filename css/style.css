@@ -1,0 +1,61 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  text-decoration: white;
+  list-style-type: none;
+  box-sizing: border-box;
+
+
+}
+body{
+  background-image: url(red.jpg );
+  height: 20px; 
+     background-size: cover;
+     font-family: 'Courier New', Courier, monospace;
+     font-style: italic;
+     
+
+
+
+}
+h3{
+  color: aquamarine;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 80px;
+}
+.container nav{
+  height: 80px;
+  width: 100%;
+
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+  color: antiquewhite;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+
+}
+nav ul li a{
+  color: wheat;
+  font-size: 30px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a:hover{
+  background:black;
+  transition: .5s;
+
+}
+h1{
+  text-align: center;
+  padding-top: 13%;
+  margin-right: 55%;
+  font-size: 100px;
+  font-style: italic;
+  color: antiquewhite;
+}
